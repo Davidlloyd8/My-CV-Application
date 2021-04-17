@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+}
+
+.cont {
+    text-align: center;
+}
+.cont h1 {
+    font-family: monospace;
+    font-size: 40px;
+}
+.cont p {
+    margin-top: -10px;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 14px;
+}
+
+.fa-map-marker {
+    color: red;
+}
+.fa-phone {
+    color: royalblue;
+}
+.fa-envelope {
+    color: lightgreen;
+}
+.fa-calendar-alt {
+    color: chocolate;
+}
+.fa-html5 {
+    color: crimson;
+}
+.fa-css3 {
+    color: crimson;
+}
+.fa-js {
+    color: skyblue;
+}
+.fa-php {
+    color: dodgerblue;
+}
+.fa-database {
+    color: grey;
+}
+.fa-file-word{
+    color: deepskyblue;
+}
+.fa-file-excel {
+    color: lightgreen;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
+.summary, .summary1,  .summary2 {
+    margin: 10px;
+    border: 1px solid black;
+}
+.summary, .summary1, .summary2 {
+    padding: 10px;
+}
+
+.prosum {
+    border-bottom: 1px solid black;
+}
+.summary1 {
+    width: 50%;
+}
+.summary2 {
+    width: 50%;
+}
+.summary, .content {
+    margin-top: 5px;
+}
+.badge {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline-block;
+    margin: 3px;
+    margin-top: 15px;
+}
+.right {
+    float: left;
+    margin-right: 500px;
+}
+.left {
+    float: right;
+}
+
+@media screen and (max-width: 768px){
+    .content1 {
+        display: flex;
+        flex-direction: column;
+    }
+    div.cont p {
+        font-size: 12px;
+    }
+    .summary, .summary1, .summary2 {
+        width: 91%;
+    }
+}
