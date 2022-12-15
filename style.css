@@ -1,113 +1,42 @@
-* {
-    box-sizing: border-box;
-}
-.container {
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 1px solid black;
-}
-
-.cont {
-    text-align: center;
-}
-.cont h1 {
-    font-family: monospace;
-    font-size: 40px;
-}
-.cont p {
-    margin-top: -10px;
-    font-family: Georgia, 'Times New Roman', Times;
+body {
+    background-color: #fff !important;
+    font-family: 'Poppins';
     font-size: 14px;
+    line-height: 0.8em;
+}
+.image-container {
+    width: 100%;
+    padding: 5px;
+    border: 3px groove rgb(171, 163, 163);
+    border-radius: 12px;
+}
+.image-container img {
+    border-radius: 8px;
+}
+.bio-box {
+    background-color: darkcyan;
+    color: #fff !important;
+    padding: 28px 10px;
+}
+.bio-box h1 {
+    font-size: 30px;
+}
+.bio-box h6 {
+    /* text-decoration: underline; */
+    font-size: 16px;
+}
+.bio-box p {
+    line-height: 1.15em;
 }
 
-.fa-map-marker {
-    color: red;
+.lang {
+    text-decoration: underline;
+    font-weight: 500;
 }
-.fa-phone {
-    color: royalblue;
+.exp {
+    padding-left: 10px;
 }
-.fa-envelope {
-    color: lightgreen;
-}
-.fa-calendar-alt {
-    color: chocolate;
-}
-.fa-html5 {
-    color: crimson;
-}
-.fa-css3 {
-    color: crimson;
-}
-.fa-js {
-    color: skyblue;
-}
-.fa-php {
-    color: dodgerblue;
-}
-.fa-database {
-    color: grey;
-}
-.fa-file-word{
-    color: deepskyblue;
-}
-.fa-file-excel {
-    color: lightgreen;
-}
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content1 {
-    display: flex;
-    justify-content: space-between;
-}
-.summary, .summary1,  .summary2 {
-    margin: 10px;
-    border: 1px solid black;
-}
-.summary, .summary1, .summary2 {
-    padding: 10px;
-}
-
-.prosum {
-    border-bottom: 1px solid black;
-}
-.summary1 {
-    width: 50%;
-}
-.summary2 {
-    width: 50%;
-}
-.summary, .content {
-    margin-top: 5px;
-}
-.badge {
-    background-color: gray;
-    border: 1px solid gray;
-    border-radius: 3px;
-    padding: 3px;
-    display: inline-block;
-    margin: 3px;
-    margin-top: 15px;
-}
-.right {
-    float: left;
-    margin-right: 500px;
-}
-.left {
-    float: right;
-}
-
-@media screen and (max-width: 768px){
-    .content1 {
-        display: flex;
-        flex-direction: column;
-    }
-    div.cont p {
-        font-size: 12px;
-    }
-    .summary, .summary1, .summary2 {
-        width: 91%;
-    }
+ul {
+    padding-left: 15px;
+    line-height: 1.5em;
 }
